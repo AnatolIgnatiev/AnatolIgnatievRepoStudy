@@ -29,13 +29,11 @@ namespace HomeWork3
             {
                 Console.WriteLine("Sorry, I do not now how to multiply chars :(.");
                 Console.ReadLine();
-                return;
             }
             else if (firstDigit > 10 || firstDigit < 0 || secondDigit > 10 || secondDigit < 0) // check if input digits are in range between 0 and 10
             {
                 Console.WriteLine("Sorry, I support only digits from 0 to 10 :(");
                 Console.ReadLine();
-                return;
             }
             else
             {

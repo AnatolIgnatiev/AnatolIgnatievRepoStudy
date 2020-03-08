@@ -28,13 +28,13 @@ namespace StudentTest
             int phisics = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Please enter points in Chemistry:");
             int chemistry = Convert.ToInt32(Console.ReadLine());
-            if (math + phisics + chemistry >= 180 || math + phisics >= 140 || math + chemistry >= 140)
-            {
-                Console.WriteLine("Student admitted");
-            }
-            else if (math < 65 || phisics < 55 || chemistry < 50)
+            if (math < 65 || phisics < 55 || chemistry < 50)
             {
                 Console.WriteLine("See you next year! )");
+            }
+            else if (math + phisics + chemistry >= 180 || math + phisics >= 140 || math + chemistry >= 140)
+            {
+                Console.WriteLine("Student admitted");
             }
             else
             {
